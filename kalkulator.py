@@ -1,10 +1,14 @@
+
 def getinfo():
     print("Program kalkulator)
 
-def dodawanie():
-    a=int(input('Wprowadz pierwza liczbe'))
-    b=int(input('Wprowadz druga liczbe'))
-    print(a+b)
-    
+def dodawanie(a,b):
+    return a+b
+
+
 getinfo()
-dodawanie()
+
+l1=int(input("wprowadz pierwsza liczbe:"))
+l2=int(input("wprowadz fruga liczbe:"))
+print(dodawanie(l1,l2))
+
